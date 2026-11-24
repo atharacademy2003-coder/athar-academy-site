@@ -26,7 +26,7 @@
   .site-header.is-scrolled::before { background: rgba(251, 248, 241, .95); }
 
   .main-nav {
-    position: fixed; inset-block: 0; inset-inline: 0; width: auto; z-index: 130;
+    position: fixed; inset-block-start: 0; inset-inline: 0; width: auto; height: 75vh; height: 75dvh; z-index: 130;
     flex-direction: column; align-items: stretch; justify-content: flex-start; gap: 20px; padding: calc(var(--header-h) + 8px) 24px 28px;
     background: var(--ivory); box-shadow: -20px 0 60px rgba(6, 36, 26, .25); overflow-y: auto;
     transform: translateX(100%); visibility: hidden; transition: transform .4s var(--ease), visibility 0s linear .4s;
